@@ -1,0 +1,27 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list_items {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  border-radius: 8px;
+  background-color: #d6d6d6;
+}
+
+.list_item {
+  display: inline-block;
+  color: var(--color-primary);
+  text-align: center;
+  font-weight: 600;
+  font-size: 14.5px;
+  padding: 24px 0;
+  cursor: pointer;
+}
+
+.list_item:hover {
+  background-color: var(--color-primary);
+  color: #fff;
+}

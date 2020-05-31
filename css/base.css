@@ -1,0 +1,32 @@
+:root {
+  --color-primary: #c84451;
+  --color-grey: grey;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #f4f4f4;
+  padding: 20px 80px;
+  font-family: Helvetica;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 37px;
+}
+
+p {
+  margin: 5px 0;
+  font-weight: 600;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
